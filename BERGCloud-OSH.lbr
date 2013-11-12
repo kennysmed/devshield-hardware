@@ -578,9 +578,6 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE PRODUCT.&lt;/b&
 <pad name="24" x="12.7" y="1.27" drill="1"/>
 <pad name="25" x="15.24" y="-1.27" drill="1"/>
 <pad name="26" x="15.24" y="1.27" drill="1"/>
-<text x="16.51" y="1.27" size="0.6096" layer="21">26</text>
-<text x="16.51" y="-1.27" size="0.6096" layer="21">25</text>
-<text x="-15.24" y="-2.54" size="0.6096" layer="21" rot="R180">1</text>
 </package>
 <package name="8PIN_DCT">
 <description>DCT package</description>
@@ -2409,32 +2406,33 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="-20.32" y1="-17.78" x2="-20.32" y2="17.78" width="0.254" layer="94"/>
 <text x="-20.32" y="22.86" size="1.778" layer="95">&gt;NAME</text>
 <text x="-20.32" y="20.32" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1-+3V3" x="-25.4" y="15.24" length="middle"/>
-<pin name="2-+5V" x="25.4" y="15.24" length="middle" rot="R180"/>
-<pin name="3-SDA0" x="-25.4" y="12.7" length="middle"/>
-<pin name="4-+5V" x="25.4" y="12.7" length="middle" rot="R180"/>
-<pin name="5-SCL0" x="-25.4" y="10.16" length="middle"/>
-<pin name="6-GND" x="25.4" y="10.16" length="middle" rot="R180"/>
-<pin name="7-GPIO7" x="-25.4" y="7.62" length="middle"/>
-<pin name="8-GPIO14-TX" x="25.4" y="7.62" length="middle" rot="R180"/>
-<pin name="9-GND" x="-25.4" y="5.08" length="middle"/>
-<pin name="10-RX" x="25.4" y="5.08" length="middle" rot="R180"/>
-<pin name="11-GPIO0" x="-25.4" y="2.54" length="middle"/>
-<pin name="12-GPIO1" x="25.4" y="2.54" length="middle" rot="R180"/>
-<pin name="13-GPIO2" x="-25.4" y="0" length="middle"/>
-<pin name="14-GND" x="25.4" y="0" length="middle" rot="R180"/>
-<pin name="15-GPIO3" x="-25.4" y="-2.54" length="middle"/>
-<pin name="16-GPIO4" x="25.4" y="-2.54" length="middle" rot="R180"/>
-<pin name="17-+3V3" x="-25.4" y="-5.08" length="middle"/>
-<pin name="18-GPIO5" x="25.4" y="-5.08" length="middle" rot="R180"/>
-<pin name="19-SPI-MOSI" x="-25.4" y="-7.62" length="middle"/>
-<pin name="20-GND" x="25.4" y="-7.62" length="middle" rot="R180"/>
-<pin name="21-SPI-MISO" x="-25.4" y="-10.16" length="middle"/>
-<pin name="22-GPIO6" x="25.4" y="-10.16" length="middle" rot="R180"/>
-<pin name="23-SPI-SCLK" x="-25.4" y="-12.7" length="middle"/>
-<pin name="24-SPI-CE0-N" x="25.4" y="-12.7" length="middle" rot="R180"/>
-<pin name="25-GND" x="-25.4" y="-15.24" length="middle"/>
-<pin name="26-SPI-CE1-N" x="25.4" y="-15.24" length="middle" rot="R180"/>
+<pin name="1_+3V3" x="-25.4" y="15.24" length="middle"/>
+<pin name="2_+5V" x="25.4" y="15.24" length="middle" rot="R180"/>
+<pin name="3_SDA-GPIO2" x="-25.4" y="12.7" length="middle"/>
+<pin name="4_+5V" x="25.4" y="12.7" length="middle" rot="R180"/>
+<pin name="5_SCL-GPIO3" x="-25.4" y="10.16" length="middle"/>
+<pin name="6_GND" x="25.4" y="10.16" length="middle" rot="R180"/>
+<pin name="7_GPIO4" x="-25.4" y="7.62" length="middle"/>
+<pin name="8_TX-GPIO14" x="25.4" y="7.62" length="middle" rot="R180"/>
+<pin name="9_GND" x="-25.4" y="5.08" length="middle"/>
+<pin name="10_RX-GPIO15" x="25.4" y="5.08" length="middle" rot="R180"/>
+<pin name="11_GPIO17" x="-25.4" y="2.54" length="middle"/>
+<pin name="12_GPIO18" x="25.4" y="2.54" length="middle" rot="R180"/>
+<pin name="13_GPIO27" x="-25.4" y="0" length="middle"/>
+<pin name="14_GND" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="15_GPIO22" x="-25.4" y="-2.54" length="middle"/>
+<pin name="16_GPIO23" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="17_+3V3" x="-25.4" y="-5.08" length="middle"/>
+<pin name="18_GPIO24" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="19_MOSI-GPIO10" x="-25.4" y="-7.62" length="middle"/>
+<pin name="20_GND" x="25.4" y="-7.62" length="middle" rot="R180"/>
+<pin name="21_MISO-GPIO9" x="-25.4" y="-10.16" length="middle"/>
+<pin name="22_GPIO25" x="25.4" y="-10.16" length="middle" rot="R180"/>
+<pin name="23_SCLK-GPIO11" x="-25.4" y="-12.7" length="middle"/>
+<pin name="24_CE0-GPIO8" x="25.4" y="-12.7" length="middle" rot="R180"/>
+<pin name="25_GND" x="-25.4" y="-15.24" length="middle"/>
+<pin name="26_CE1-GPIO7" x="25.4" y="-15.24" length="middle" rot="R180"/>
+<text x="-20.32" y="-20.32" size="1.778" layer="97">Revision 2.</text>
 </symbol>
 <symbol name="ARDUINO_SHIELD">
 <wire x1="-10.16" y1="-20.32" x2="-10.16" y2="20.32" width="0.254" layer="94"/>
@@ -4096,32 +4094,32 @@ Based on .lbr designed by Jacques Lagnel in 2012.
 <devices>
 <device name="HEADERS" package="13X2_2.54MM">
 <connects>
-<connect gate="G$1" pin="1-+3V3" pad="1"/>
-<connect gate="G$1" pin="10-RX" pad="10"/>
-<connect gate="G$1" pin="11-GPIO0" pad="11"/>
-<connect gate="G$1" pin="12-GPIO1" pad="12"/>
-<connect gate="G$1" pin="13-GPIO2" pad="13"/>
-<connect gate="G$1" pin="14-GND" pad="14"/>
-<connect gate="G$1" pin="15-GPIO3" pad="15"/>
-<connect gate="G$1" pin="16-GPIO4" pad="16"/>
-<connect gate="G$1" pin="17-+3V3" pad="17"/>
-<connect gate="G$1" pin="18-GPIO5" pad="18"/>
-<connect gate="G$1" pin="19-SPI-MOSI" pad="19"/>
-<connect gate="G$1" pin="2-+5V" pad="2"/>
-<connect gate="G$1" pin="20-GND" pad="20"/>
-<connect gate="G$1" pin="21-SPI-MISO" pad="21"/>
-<connect gate="G$1" pin="22-GPIO6" pad="22"/>
-<connect gate="G$1" pin="23-SPI-SCLK" pad="23"/>
-<connect gate="G$1" pin="24-SPI-CE0-N" pad="24"/>
-<connect gate="G$1" pin="25-GND" pad="25"/>
-<connect gate="G$1" pin="26-SPI-CE1-N" pad="26"/>
-<connect gate="G$1" pin="3-SDA0" pad="3"/>
-<connect gate="G$1" pin="4-+5V" pad="4"/>
-<connect gate="G$1" pin="5-SCL0" pad="5"/>
-<connect gate="G$1" pin="6-GND" pad="6"/>
-<connect gate="G$1" pin="7-GPIO7" pad="7"/>
-<connect gate="G$1" pin="8-GPIO14-TX" pad="8"/>
-<connect gate="G$1" pin="9-GND" pad="9"/>
+<connect gate="G$1" pin="10_RX-GPIO15" pad="10"/>
+<connect gate="G$1" pin="11_GPIO17" pad="11"/>
+<connect gate="G$1" pin="12_GPIO18" pad="12"/>
+<connect gate="G$1" pin="13_GPIO27" pad="13"/>
+<connect gate="G$1" pin="14_GND" pad="14"/>
+<connect gate="G$1" pin="15_GPIO22" pad="15"/>
+<connect gate="G$1" pin="16_GPIO23" pad="16"/>
+<connect gate="G$1" pin="17_+3V3" pad="17"/>
+<connect gate="G$1" pin="18_GPIO24" pad="18"/>
+<connect gate="G$1" pin="19_MOSI-GPIO10" pad="19"/>
+<connect gate="G$1" pin="1_+3V3" pad="1"/>
+<connect gate="G$1" pin="20_GND" pad="20"/>
+<connect gate="G$1" pin="21_MISO-GPIO9" pad="21"/>
+<connect gate="G$1" pin="22_GPIO25" pad="22"/>
+<connect gate="G$1" pin="23_SCLK-GPIO11" pad="23"/>
+<connect gate="G$1" pin="24_CE0-GPIO8" pad="24"/>
+<connect gate="G$1" pin="25_GND" pad="25"/>
+<connect gate="G$1" pin="26_CE1-GPIO7" pad="26"/>
+<connect gate="G$1" pin="2_+5V" pad="2"/>
+<connect gate="G$1" pin="3_SDA-GPIO2" pad="3"/>
+<connect gate="G$1" pin="4_+5V" pad="4"/>
+<connect gate="G$1" pin="5_SCL-GPIO3" pad="5"/>
+<connect gate="G$1" pin="6_GND" pad="6"/>
+<connect gate="G$1" pin="7_GPIO4" pad="7"/>
+<connect gate="G$1" pin="8_TX-GPIO14" pad="8"/>
+<connect gate="G$1" pin="9_GND" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
